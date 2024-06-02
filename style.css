@@ -1,0 +1,18 @@
+*{
+    background-color: #292929;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+  background-size: 300%;
+  background-position-x: 100%;
+  animation: shimmer 0.5s ease-in infinite;
+  border-radius: 5px;
+}
+@keyframes shimmer {
+  to {
+    background-position-x: 0%;
+  }
+}
